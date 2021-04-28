@@ -346,6 +346,7 @@ background-color: rgb(105, 105, 105);
     }
     #background{
         margin-left: 0vw;
+      
     
         
         
@@ -451,20 +452,48 @@ background-color: rgb(105, 105, 105);
     }
     #about-grid-2 p span:nth-child(1){
         font-size: 20px ;
-       line-height: 30px;
+       line-height: 6vh;
       
      
       
     }
     #about-grid-2 p span:nth-child(4){
         font-size: 20px;
-       line-height: 30px;
+       line-height: 6vh;
        
     }
     #about-grid-1{
       
        font-size: 30px;
     
+    }
+    @media (min-height:680px){
+        #about-grid-2{
+            font-size: 25px;
+            
+        }
+        #about-grid-2 p{
+            padding-top: 30px;
+            padding-left: 0px;
+            
+        }
+        #about-grid-2 p span:nth-child(1){
+            font-size: 30px ;
+           line-height: 6vh;
+          
+         
+          
+        }
+        #about-grid-2 p span:nth-child(4){
+            font-size: 20px;
+           line-height: 6vh;
+           
+        }
+        #about-grid-1{
+          
+           font-size: 30px;
+
+
     }
 
 }
@@ -705,14 +734,6 @@ background-color: rgb(105, 105, 105);
       color: rgba(255, 255, 255, 0.479);
 
   }
-  @media (max-width:600px){
-    .grid-div{
-       
-        
-
-    }
-
-  }
 
 
 
@@ -798,3 +819,4 @@ background-color: rgb(105, 105, 105);
                 position: absolute;
             }
         }
+    }
